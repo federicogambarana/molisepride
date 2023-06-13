@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+
+body {
+    margin: 0;
+}
+
+#header_main{
+    margin-top: 2em;
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    transition: top 0.2s;
+}
+
+.header_left{
+     display: inline-block;
+     padding-left: 2em;
+}
+
+#menuArea{
+    display: none;
+}
+
+.header_right_desktop{
+     display: inline-block;
+     padding-right: 2em;
+}
+
+.header_right_mobile_open{
+     display: none;
+}
+.header_right_mobile_close{
+     display: none;
+}
+
+.header_logo{
+    height: 50%;
+}
+
+.header_p{
+    display: inline-block;
+    font-family: 'Syne', sans-serif;
+       text-transform: capitalize;
+    font-size: 2em;
+    margin: 0;
+    margin-right: 2em;
+    color: white;
+}
+
+.header_p:hover{
+    color: #47D6FD;
+}
+
+.button_header{
+    background-color: white;
+    display: inline-block;
+    margin: 0;
+    margin-right: 2em;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 3em;
+}
+
+.button_header:hover{
+    background-color: #47D6FD;
+}
+
+.header_p_button{
+    display: inline-block;
+    font-family: 'Syne', sans-serif;
+    text-transform: capitalize;
+    font-size: 2em;
+    margin: 0.5rem;
+    color: #FC66C5;
+}
+
+.header_p_button:hover{
+  color: #ffffff;
+}
+
+#landing_section{
+    display: flex;
+    background-color: #FC66C5;
+    height: 100vh;
+}
+
+#landing_section_logo{
+}
+
+.landing_logo{
+    margin: 0;
+    position: absolute;
+   top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    width: 40em;
+      transition: 0.2s;
+}
+
+
+.landing_logo:hover{
+    width: 45em;
+   
+}
+
+
+#landing_section_tag{
+    display: flex;
+    justify-content: center;
+}
+
+#landing_tag{
+     font-family: 'Syne', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#landing_section_carosello{
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+#carosello{
+    margin: 0;
+     font-family: 'Syne', sans-serif;
+    font-size: 6em;
+    color: white;
+}
+/*
+.scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }*/
+}
+
+
+/*ANIMAZIONE CAROSELLO */
+#landing_section_carosello{
+
+    top: 87vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+#carosello{
+    margin: 0;
+     font-family: 'Syne', sans-serif;
+    font-size: 6em;
+    color: white;
+}
+
+.marquee {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 0;
+  animation: marquee 250s linear infinite;
+}
+
+.marquee2 span {
+  animation-delay: 0;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+} 
+    
+
+    
+    
+
+.section_l{
+    background-color: aqua;
+    margin: 2em;
+}
+.section_r{
+    background-color:aquamarine ;
+     margin: 2em;
+}
+
+#section_event{
+    background-color: blueviolet;
+}
+
+.title{
+     font-family: 'Syne', sans-serif;
+    font-size: 3em;
+}
+
+.text{
+     font-family: 'Syne', sans-serif;
+    font-size: 1.5em;
+}
+
+.text_white{
+     font-family: 'Syne', sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+#footer{
+     background-color: black;
+    padding: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 980px) {
+    
+    #header_main{
+        margin-top: 4em;
+    }
+    
+.header_left{
+     display: inline-block;
+     padding-left: 4em;
+}
+    
+    
+    #menuArea{
+        display: block;
+}
+    .header_right_desktop{
+    display: none;
+}
+    
+.header_right_mobile_open{
+       display: inline-block;
+     padding-right: 4em;
+}
+    
+    .header_right_mobile_close{
+       display: none;
+}
+   
+    
+    .landing_logo{
+    width: 55em;
+}
+    
+   #landing_section_carosello{
+
+    top: 90vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+#carosello{
+    margin: 0;
+     font-family: 'Syne', sans-serif;
+    font-size: 8em;
+    color: white;
+}
+
+    
+    
+    
+    
+    /*sezione menu mobile*/
+   input {
+  display: none;
+}
+
+.open {
+  background-color: white;
+  width: 5em;
+  height: 0.5em;
+  display: block;
+  position: relative;
+  top: 0;
+  right: 2em;
+}
+
+.open:before {
+  content: "";
+  background-color: white;
+  width: 5em;
+  height: 0.5em;
+  display: block;
+  position: relative;
+  top: -1em;
+  transform: rotate(0deg);
+  transition: all 0.2s ease;
+}
+
+.open:after {
+  content: "";
+  background-color: white;
+  width: 5em;
+  height: 0.5em;
+  display: block;
+  position: relative;
+  top: 0.5em;
+  transform: rotate(0deg);
+  transition: all 0.2s ease;
+}
+
+    
+.menuOpen {
+  width: 4em;
+  height: 2em;
+  display: block;
+  padding: 2em;
+  float: right;
+}
+
+.menuOpen:hover .open:before {
+  top: -1em;
+}
+
+.menuOpen:hover .open:after {
+   top: 0.5em;
+}
+
+.menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: black;
+}
+
+.menu label {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-size: 100%;
+}
+
+.menu .menuContent {
+  position: relative;
+  top: 4em;
+  font-size: 54px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+    
+    .black_menu_1 a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-family: Syne;
+    text-transform: capitalize;
+    font-size: 2em;
+  padding: 12%;
+    background-color: #000000;
+}
+    
+    .black_menu_1 a:hover {
+  color: #47D6FD;
+}
+    
+    
+
+.rainbow_menu_1 a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-family: Syne;
+    font-size: 2em;
+  padding: 12%;
+    background-color: #45159C;
+}
+    .rainbow_menu_2 a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-family: Syne;
+     font-size: 2em;
+  padding: 12%;
+    background-color: #004AAD;
+}
+    
+       .rainbow_menu_3 a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-family: Syne;
+  font-size: 2em;
+  padding: 12%;
+    background-color: #43B66A;
+}
+    
+       .rainbow_menu_4 a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-family: Syne;
+    font-size: 2em;
+  padding: 12%;
+    background-color: #FF914C;
+}
+      .rainbow_menu_5 a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-family: Syne;
+  font-size: 2em;
+  padding: 12%;
+    background-color: #FF1717;
+} 
+
+
+.menuEffects {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+
+}
+
+
+#menuToggle:checked ~ .menuEffects {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s;
+}
+
+#menuToggle:checked ~ .menuEffects ul {
+  opacity: 1;
+}
+
+#menuToggle:checked ~ .menuOpen .open {
+  background-color: transparent;
+}
+
+#menuToggle:checked ~ .menuOpen .open:before {
+  content: "";
+  background-color: white;
+  transform: rotate(45deg);
+  position: fixed;
+  top: 6em;
+  right: 3em;
+  z-index: 1;
+}
+
+#menuToggle:checked ~ .menuOpen .open:after {
+  content: "";
+  background-color: white;
+  transform: rotate(-45deg);
+position: fixed;
+  top: 6em;
+  right: 3em;
+  z-index: 1;
+}
+
+#menuToggle:not(:checked) ~ .menuEffects ul {
+  transform: translateY(-30%);
+}
+
+    
+    
+.section_l{
+    margin: 4em;
+}
+.section_r{
+     margin: 4em;
+}
+    #footer{
+    padding: 4em;
+}
+
+  }
