@@ -295,7 +295,7 @@ body {
 }
     
    #landing_section_carosello{
-    top: 85%;
+    top: 87%;
     overflow: hidden;
     width: 100%;
 }
@@ -397,7 +397,7 @@ body {
     
        .black_spacer {
   display: block;
-  padding: 6%;
+  padding: 2%;
     background-color: #000000;
 }
     
