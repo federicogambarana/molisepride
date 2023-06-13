@@ -295,7 +295,7 @@ body {
 }
     
    #landing_section_carosello{
-    top: 85vh;
+    top: 85%;
     overflow: hidden;
     width: 100%;
 }
