@@ -295,8 +295,7 @@ body {
 }
     
    #landing_section_carosello{
-
-    top: 90vh;
+    top: 85vh;
     overflow: hidden;
     width: 100%;
 }
@@ -394,6 +393,13 @@ body {
   padding-bottom: 20px;
 }
 
+    
+    
+       .black_spacer {
+  display: block;
+  padding: 6%;
+    background-color: #000000;
+}
     
     .black_menu_1 a {
   display: block;
