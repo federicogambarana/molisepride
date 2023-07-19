@@ -738,7 +738,7 @@ display: flex;
 .minititle{
      font-family: 'Syne', sans-serif;
      font-weight: 700;
-    font-size: 2em;
+    font-size: 18pt;
     line-height: 1.4em;
      font-weight: 600;
     color: #45159C;
@@ -838,6 +838,7 @@ display: flex;
 
 @media only screen and (max-width: 980px) {
     
+    
    
     
     .hero{
@@ -911,6 +912,16 @@ display: flex;
         font-size: 32pt;
     font-weight: 800;
     margin: 0;
+}
+    
+    .minititle{
+     font-family: 'Syne', sans-serif;
+     font-weight: 700;
+    font-size: 32pt;
+    line-height: 1.4em;
+     font-weight: 600;
+    color: #45159C;
+    margin-bottom: 0.5em;
 }
 
     .p_section_1{
