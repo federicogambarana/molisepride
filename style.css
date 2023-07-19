@@ -862,14 +862,14 @@ display: flex;
 .paragraph{
      font-family: 'Syne', sans-serif;
     font-weight: 500;
-    font-size: 24pt;
+    font-size: 32pt;
 
 }
 
 .paragraph_2{
      font-family: 'Syne', sans-serif;
     font-weight: 500;
-    font-size: 24pt;
+    font-size: 32pt;
     line-height: 0.5em;
      line-height: 1em;
   
@@ -878,7 +878,7 @@ display: flex;
 .paragraph_3{
      font-family: 'Syne', sans-serif;
     font-weight: 500;
-    font-size: 30pt;
+    font-size: 32pt;
     line-height: 0;
     
 }
@@ -886,7 +886,7 @@ display: flex;
 .paragraph_4{
      font-family: 'Syne', sans-serif;
     font-weight: 700;
-    font-size: 30pt;
+    font-size: 32pt;
        margin: 0;
 }
 
@@ -901,14 +901,14 @@ display: flex;
 .p_bold{
      font-family: 'Syne', sans-serif;
     font-weight: 800;
-    font-size: 24pt;
+    font-size: 32pt;
       line-height: 0em;
   
 }
 
 .p_bold_2{
          font-family: 'Syne', sans-serif;
-        font-size: 24pt;
+        font-size: 32pt;
     font-weight: 800;
     margin: 0;
 }
