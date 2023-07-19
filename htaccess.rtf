@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue233;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c93333;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth8893\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr0 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf0 #remove html file extension {\field{\*\fldinst{HYPERLINK "https://example.com/page.html"}}{\fldrslt \cf3 \ul \ulc3 https://www.molisepride.it/index.html}}
+\f0\fs24 \
+
+\f1\fs26 # to {\field{\*\fldinst{HYPERLINK "https://example.com/page"}}{\fldrslt \cf3 \ul \ulc3 https://www.molisepride.it/}}
+\f0\fs24 \
+
+\f1\fs26 RewriteEngine On
+\f0\fs24 \
+
+\f1\fs26 RewriteCond %\{REQUEST_FILENAME\} !-d
+\f0\fs24 \
+
+\f1\fs26 RewriteCond %\{REQUEST_FILENAME\} !-f
+\f0\fs24 \
+
+\f1\fs26 RewriteRule ^([^\\.]+)$ $1.html [NC, L]
+\f0\fs24 \cell \lastrow\row
+}
