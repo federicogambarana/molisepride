@@ -480,7 +480,7 @@ img.vert-move {
      font-family: 'Syne', sans-serif;
     font-size: 24pt;
     font-weight: 700;
-    /* line-height: 0;*/
+    line-height: 80%;
     
 }
 
